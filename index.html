@@ -1,0 +1,234 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/32f7a6c8c4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/favicon.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>CS Undergrad Student</p>
+                <h1>Hi, I am <span>virendra chaudhary</span> <br> from Rajasthan, India.</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-------about--------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images\WhatsApp Image 2025-02-20 at 17.59.52_736ca17d (1).jpg">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am virendra chaudhary (20 M) ,3rd year btech computer science and engineering student at vit
+                        bhopal university. I am interested in Machine learning , Artifical Intelligence and Web
+                        Development.
+                        I am profecient in python, django, cpp, java, javascript, html and css. </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')"> Skills</p>
+                            <p class="tab-links active-link" onclick="opentab('Experience')"> Experience</p>
+                            <p class="tab-links active-link" onclick="opentab('Education')"> Education</p>
+
+                        </div>
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul><li><span>UI/UX</span><br>Designing Web/App Interfaces.</li>
+                            <ul><li><span>Web Development</span><br>building web applications that promise security and speed.</li>
+                            <ul><li><span>Machine learning</span><br>making models that can solve real-life problems. </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul><li><span>2023-2024</span><br>Worked on frontend of personal website projects.</li>
+                            <ul><li><span>2022-current</span><br>Working on django and building web applications that promise security and speed.</li>
+                            <ul><li><span>2023-2024</span><br>Made models that can solve real-life problems.For example , built machine learning model that can detect lung cancer. Completed data science project by scrapping spacex website for data and then predicting the failure rates of landing of rockets. </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul><li><span>2022 - current</span><br>learning UI/UX on youtube.</li>
+                            <ul><li><span>2023-current</span><br>learning web development on odin project.</li>
+                            <ul><li><span>2023-2024</span><br>completed machine learning specialization courses by Andrew NG and stanford university on coursera. </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- services -->
+     <div id = "services">
+        <div class = "container">
+            <h1 class = "sub-title"> Services </h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae neque magni voluptatem iure voluptates, nulla, quasi reiciendis inventore temporibus laudantium eius! Ullam molestiae eaque nesciunt necessitatibus iusto vel ea at?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae neque magni voluptatem iure voluptates, nulla, quasi reiciendis inventore temporibus laudantium eius! Ullam molestiae eaque nesciunt necessitatibus iusto vel ea at?</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae neque magni voluptatem iure voluptates, nulla, quasi reiciendis inventore temporibus laudantium eius! Ullam molestiae eaque nesciunt necessitatibus iusto vel ea at?</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+
+     </div>
+
+<!-- portfolio -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione rerum obcaecati aut doloremque odit, voluptatum tenetur, incidunt quam reiciendis fugit? Modi aut tempore a quasi expedita dicta. Repellat, repellendus.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Social Media sentiment analysis App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione rerum obcaecati aut doloremque odit, voluptatum tenetur, incidunt quam reiciendis fugit? Modi aut tempore a quasi expedita dicta. Repellat, repellendus.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.jpg">
+                <div class="layer">
+                    <h3>car rent App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ratione rerum obcaecati aut doloremque odit, voluptatum tenetur, incidunt quam reiciendis fugit? Modi aut tempore a quasi expedita dicta. Repellat, repellendus.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- -----contact----- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> virendremoond@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9636420344</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/virendra-chaudhary1/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="virendra_cv (2)-1.pdf" class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="text" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © virendra chaudhary. Made with <i class="fa-brands fa-gratipay"></i></p>
+    </div>
+  </div>
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+
+        }
+
+    </script>
+    
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbysRIKQnF9Uo0eGTkfg2oe1MVvkKJ1NG9cr0oaQzAyyY9H6x3Mv2-h5FmbIFabFxZid/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    
+
+</body>
+
+</html>
